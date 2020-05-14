@@ -1,0 +1,39 @@
+public class Card{
+  private int num;
+  private sting title;
+  private String suit;
+  
+  public Card(int num1, String suit1, String title1){
+    num = num1;
+    suit = suit1;
+    title = title1;
+  }
+  
+  public String getNum(){
+    return num;
+  }
+  public String getSuit(){
+    return suit;
+  }
+  public String getTitle(){
+    return title;
+  }
+
+  public void setNum(int num1){
+    num = num1;
+  }
+  public void setSuit(String suit1){
+    suit = suit1;
+  }
+  public void setTitle(String title1){
+    title = title1;
+  }
+public String toString(){
+  String words = "Value: " + num + " Title: "+ " Suit: "+ suit;
+  return words;
+}
+
+
+
+
+}
