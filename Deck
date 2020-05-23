@@ -1,0 +1,28 @@
+public class Deck{
+  private Card deck[] = new Card[52];
+  private Card dealtCards[] = new Card[52];
+  private int locationDeck = 0;
+  private int locationDealt = 0;
+  
+  public Deck(){
+  
+  }
+  
+  public void addCard(Card add){
+    deck[location] = add;
+    location++;
+  }
+ 
+  public Card dealCard(){
+    Card dealt;
+    dealt = deck[Math.random()*(locationDeck+1)];
+    dealtCards[locationDealt] = dealt;
+    locationDealt++;
+    return dealt;
+  }
+
+  public void Shuffle(){
+  
+  }
+
+}
