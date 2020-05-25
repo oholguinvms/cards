@@ -18,6 +18,7 @@ public class Deck{
     dealt = deck[Math.random()*(locationDeck+1)];
     dealtCards[locationDealt] = dealt;
     locationDealt++;
+    //delete the card from deck
     return dealt;
   }
 
