@@ -5,7 +5,7 @@ public class Deck{
   private int locationDealt = 0;
   
   public Deck(){
-  
+    System.out.println("please add 52 cards to the deck");
   }
   
   public void addCard(Card add){
